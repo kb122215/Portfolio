@@ -24,9 +24,8 @@
           <li><a href="projects.html"> Projects </a></li>
           <li><a href="skills.html"> Skills </a></li>
           <li><a href="contact.html"> Contact </a></li>
-
-          <a href="contact.html" class="nav-button"> Let's Talk </a>
         </ul>
+        <a href="contact.html" class="nav-button"> Let's Talk </a>
       </nav>
     </header>
 
@@ -40,7 +39,10 @@
             <p class="greeting-content">Hello, I'm Karimah</p>
             <h1>
               Software Engineer
-              <span>building thoughful digital experiences.</span>
+              <span class="hero-accent">
+                building <span id="typing-text"></span>
+                <span class="typing-cursor">|</span>
+              </span>
             </h1>
             <p class="hero-description">
               I create responsive, accessible, and user-focused websites and
@@ -122,8 +124,8 @@
             <a href="projects.html" class="text-link">View All Projects → </a>
           </div>
           <div class="projects-grid">
-            <!-- Project !  -->
-            <article class="project-card">
+            <!-- Project 1  -->
+            <article class="project-card reveal">
               <div class="project-image">
                 <div class="image-placeholder">Project Preview</div>
               </div>
@@ -146,7 +148,7 @@
               </div>
             </article>
             <!-- Project 2 -->
-            <article class="project-card">
+            <article class="project-card reveal">
               <div class="project-image">
                 <div class="image-placeholder">Project Preview</div>
               </div>
@@ -169,7 +171,7 @@
               </div>
             </article>
             <!-- Project 3 -->
-            <article class="project-card">
+            <article class="project-card reveal">
               <div class="project-image">
                 <div class="image-placeholder">Project Preview</div>
               </div>
@@ -259,7 +261,9 @@
           <a href="#">LinkedIn</a>
           <a href="contact.html">Contact</a>
         </div>
-        <p class="copyright">© 2026 Karimah. All right reserved.</p>
+        <p class="copyright">
+          © <span class="current-year"></span>Karimah. All right reserved.
+        </p>
       </div>
     </footer>
     <script src="js/main.js"></script>
