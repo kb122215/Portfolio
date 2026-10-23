@@ -484,13 +484,16 @@ h2 span {
 .developer-symbol {
   position: relative;
   z-index: 2;
-  margin-top: 65px;
-  margin-bottom: 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-top: 15px;
+  margin-bottom: 45px;
   color: var(--color-accent);
-  font-size: 4.5rem;
+  font-size: clamp(1.6rem, 2.5vw, 2.5rem);
   font-weight: 700;
-  line-height: 1;
-  letter-spacing: -0.08em;
+  line-height: 1.15;
+  letter-spacing: -0.04em;
 }
 
 .developer-card-content {
